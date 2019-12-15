@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wCenter, button, .section_card_right_container a {
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background: url(../img/m-h-day.jpg) no-repeat center;
+  background-size: cover;
+  border-bottom-right-radius: 40%;
+  height: 623px;
+}
+
+.header-wrap {
+  width: 1000px;
+  margin-left: 170px;
+  padding-top: 15px;
+}
+.header-wrap .landing-logo {
+  color: #2c2f3c;
+}
+
+.landing-logo {
+  display: flex;
+  font-weight: bold;
+  font-family: "Hind", sans-serif;
+}
+.landing-logo p {
+  margin: 5px 15px;
+  font-size: 25px;
+  line-height: 20px;
+}
+.landing-logo p span {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+}
+.landing-logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.header_heading {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 480px;
+  color: #2c2f3c;
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  z-index: 0;
+}
+.header_heading::before {
+  content: "";
+  border: 24px solid #14a0c7;
+  position: absolute;
+  border-right-width: 268px;
+  top: 94px;
+  z-index: -1;
+}
+
+.header_text {
+  font-family: "Hind", sans-serif;
+  color: #2c2f3c;
+  line-height: 25px;
+  font-size: 15px;
+  white-space: pre-line;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #699900;
+  border: none;
+  padding: 13px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 150px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.login {
+  color: white;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+.section_text {
+  position: relative;
+  font-family: "Hind", sans-serif;
+  color: #2c2f3c;
+  text-align: center;
+  font-size: 35px;
+  z-index: 0;
+}
+.section_text::before {
+  content: "";
+  border: 21px solid #14a0c7;
+  position: absolute;
+  border-right-width: 133px;
+  left: 191px;
+  bottom: 7px;
+  z-index: -1;
+}
+
+.section_card {
+  display: flex;
+  background: #21232e;
+  border-radius: 4px;
+  height: 285px;
+  width: 964px;
+  margin-bottom: 20px;
+}
+.section_card .section_card_img {
+  width: 410px;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.section_card_heading {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.section_card_right_container {
+  display: flex;
+  font-family: "Hind", sans-serif;
+  flex-direction: column;
+  padding: 30px 80px 30px 80px;
+  width: 470px;
+  color: #cacaca;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 15px;
+}
+.section_card_right_container .section_card_heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section_banner {
+  display: flex;
+  position: absolute;
+  border-radius: 4px;
+  background: linear-gradient(to right, #699803, #2c5add);
+  width: 62%;
+  height: 130px;
+  bottom: -915px;
+  left: 19%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_banner_heading {
+  position: relative;
+  color: #2c2f3c;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  z-index: 0;
+}
+.section_banner_heading::before {
+  content: "";
+  border: 21px solid #14a0c7;
+  position: absolute;
+  border-right-width: 46px;
+  left: 119px;
+  bottom: 7px;
+  z-index: -1;
+}
+
+.section_banner_text_wrap {
+  margin-left: 150px;
+}
+
+.section_banner_text {
+  color: #c8c8c8;
+  font-family: "Hind", sans-serif;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #21232e;
+  color: #c0c3ce;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 190px 40px 190px;
+  font-family: "Hind", sans-serif;
+}
+
+.footer_text {
+  width: 300px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Hind", sans-serif;
+}
+
+.footer-cr {
+  font-family: "Hind", sans-serif;
+}
