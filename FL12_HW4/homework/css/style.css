@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+
+.main-nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 0px;
+  height: 10px;
+  z-index: 1;
+}
+
+.nav-blocks {
+  list-style: none;
+  display: flex;
+}
+
+.nav-block {
+  margin-left: 40px;
+}
+
+.nav-a:hover {
+  color: #c7c486;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #898884;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #555;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  height: 100vh;
+  margin-bottom: 120px;
+}
+
+.hello-wrap {
+  text-align: center;
+}
+
+.hello-heading {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.hello-txt {
+  color: #aeaa4b;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.hello-btn {
+  margin-top: 40px;
+  width: 170px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.info {
+  display: flex;
+}
+
+.autor_img {
+    width: 40px;
+    height: 40px;
+  border-radius: 50%;
+}
+
+.info p{
+    margin-left:10px;
+}
+
+.section_blog{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+}
+
+.section_blog_img{
+    max-width: 100%;
+}
+
+.blog-txt{
+    color: #777777;
+}
+
+hr{
+    max-width: 900px;
+    border: 0.5px solid #f0f0f0;
+    margin: 60px auto;
+}
+
+.blogBtn{
+    margin-top: 10px;
+    width: 170px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    color: #777;
+    border-radius: 50px;
+}
+
+.fa-comment{
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.footer_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.footer_first{
+    width: 400px;
+}
+
+.footer_heading{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin:0px;
+}
+
+.footer_txt{
+    font-size: 14px;
+    color: #777;
+    line-height: 23px;
+}
+
+.footer_info{
+    font-size: 14px;
+    color: #777;
+}
