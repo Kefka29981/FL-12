@@ -1,0 +1,40 @@
+    elem.file i::before {
+    content: "insert_drive_file";
+    color: #BBBBBB;
+  }
+  
+  elem:hover {
+    background-color: lightgray;
+  }
+  
+  elem {
+    font-size: 20px;
+    display: flex;
+  }
+  
+  #root div {
+    padding-left: 10px;
+  }
+
+  elem.folder.folded i::before {
+    content: "folder";
+    color: #FFA500;
+  }
+  
+  elem.folder i::before {
+    content: "folder_open";
+    color: #FFA500;
+  }
+  
+  elem.folder.folded+div {
+    display: none;
+  }
+  
+  .material-icons {
+    vertical-align: bottom;
+  }
+
+  p{
+      margin: 0px;
+      font-size: 20px;
+  }
